@@ -1,0 +1,285 @@
+body {
+    margin: 0;
+}
+
+/* Navigation */
+
+.navigation___wrapper {
+    max-width: 1360px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px auto;
+    flex-wrap: wrap;
+    padding: 5px 20px;
+}
+.navigation__item {
+    display: flex;
+    flex: 1;
+    justify-content: right;
+    padding: 0;
+    list-style: none;
+    gap: 0 60px;
+    align-items: center;
+}
+
+.navigation__item_anchor {
+    text-decoration: none;
+    color: rgb(46, 45, 45);
+}
+.navigation__item_button {
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 24px;
+    font-family: "Barlow", Helvetica, sans-serif;
+    background-color: #92ae4a;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    border: none;
+
+}
+    .item_button {
+        position: absolute;
+        right: 0;
+        height: 100%;
+   
+    } 
+    
+
+
+/* Banner */
+
+.banner__wrapper {
+    background-color: rgb(98, 127, 176);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 200px;
+    flex-wrap: wrap;
+}
+.banner_image-wrap {
+    max-height: 500px;
+    overflow: hidden;
+}
+
+.banner__wrapper_left {
+    max-width: 400px;
+    margin: 15px;
+}
+
+.banner__tittle {
+    font-family: "Barlow Condensed", Helvetica, sans-serif;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 100px;
+}
+
+.banner__paragraph {
+    font-family: 24px;
+    line-height: 28px;
+    color: white;
+}
+
+.phone__picture {
+    max-width: 100%;
+}
+
+/* Main */
+
+.main__context-wrapper {
+    margin: 40px auto;
+    max-width: 1360px;
+
+    justify-content: center;
+ padding: 0 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    .picture {
+max-width: 100%;
+height: auto;
+
+    }
+}
+
+.picture {
+    max-width: 370px;
+}
+
+.main__context-wrapper-sections {
+    display: flex;
+    list-style: none;
+    text-align: center;
+    gap: 0 50px;
+    padding: 0;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main__context-wrapper-sections li {
+    flex: 1;
+    max-width: 350px;
+}
+.tittle {
+    color: #bd6152;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 51px;
+    font-family: "Barlow Condensed", Helvetica, sans-serif;
+    margin: 0;
+}
+
+.paragraph__for_ricture {
+    font-size: 16px;
+    font-family: "Barlow", Georgia, serif;
+    line-height: 23px;
+    max-width: 370px;
+    margin: 16px auto;
+}
+
+.section__color_one-wrapper {
+    background-color: rgb(98, 127, 176);
+
+    display: flex;
+}
+
+.section__color_one-wrapper-items {
+    max-width: 490px;
+    margin-left: auto;
+    padding: 100px 20px;
+}
+
+.wrapper__for-width {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    place-self: center;
+}
+
+.tittle__section-one {
+    color: white;
+    font-size: 60px;
+
+    text-transform: uppercase;
+    margin: 0;
+    font-family: "Barlow Condensed", Helvetica, sans-serif;
+}
+
+.paragraph__section-one {
+    color: white;
+    font-family: "Barlow Condensed", Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.section__color_two-wrapper {
+    background-color: #bd6152;
+    height: 250px;
+    display: flex;
+    padding: 0 20px;
+}
+
+.section__color_two-wrapper-items {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.wrapper__for-width-two {
+    align-self: center;
+    max-width: 1360px;
+    margin: 20px auto;
+    width: 100%;
+}
+
+.input__email {
+    /* This bit sets up the horizontal layout */
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    border-radius: 20px;
+
+    /* This bit draws the box around it */
+    border: none;
+
+    /* I've used padding so you can see the edges of the elements. */
+    padding: 1px;
+    flex: 1;
+    position: relative;
+
+}
+
+input {
+    /* Tell the input to use all the available space */
+    flex-grow: 2;
+    /* And hide the input's outline, so the form looks like the outline */
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+/* remove the input focus blue box, it will be in the wrong place. */
+input:focus {
+    outline: none;
+}
+
+/* Add the focus effect to the form so it contains the button */
+form:focus-within {
+    outline: 1px solid blue;
+}
+
+button {
+    /* Just a little styling to make it pretty */
+    border: 1px solid blue;
+    background: blue;
+    color: white;
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    .section__color_one-wrapper-items {
+        padding: 30px;
+    }
+}
+
+.footer {
+    display: flex;
+    max-width: 1440px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 20px auto;
+    height: 50px;
+}
+
+.paragraph__footer {
+    display: flex;
+    flex: 1;
+    font-family: "Barlow", Helvetica, sans-serif;
+    color: rgb(37, 36, 36);
+}
+
+.list__footer-wrapper {
+    display: flex;
+    list-style: none;
+    color: rgb(37, 36, 36);
+    font-family: "Barlow", Helvetica, sans-serif;
+    gap: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+    .section__color_two-wrapper-items {
+        margin: 30px 15px;
+        display: block;
+    }
+
+    .input__email {
+        width: 100%;
+
+    }
+}
